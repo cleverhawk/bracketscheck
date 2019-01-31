@@ -1,0 +1,21 @@
+{
+    "name": "smarthawk/education_lesson1",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SmartHawk",
+            "email": "smart.hawk@yahoo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartHawk\\": "src"
+        }
+    }
+}
